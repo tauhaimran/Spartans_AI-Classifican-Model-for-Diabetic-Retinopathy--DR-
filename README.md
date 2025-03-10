@@ -24,7 +24,7 @@ This is the organized file structure of the **Spartans AI Model for Diabetic Ret
     ├── README.md (instructions for running the model)
     ├── requirements.txt (dependencies)
     ├── watchme.mkv (demo video)
-    ├── Spartans.txt (.zip file of whole project)
+├── Spartans.txt (.zip file of whole project)
 ```
 
 ---
