@@ -62,12 +62,7 @@ The dataset is obtained from Kaggle using the `kagglehub` library:
 ## 📈 Results
 - The model achieves satisfactory accuracy in predicting the severity of Diabetic Retinopathy.
 - The final trained model is saved as `trained_model.h5`.
-
----
-
-## 🚀 Running the Model
-To run the model, use the provided `run_model.py` file and follow the installation instructions in the `README.md` file.
-
+  
 ---
 
 ## 📜 Conclusion
