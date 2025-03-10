@@ -1,70 +1,32 @@
-
 ## 💻 Installation & Setup
 
 ### 📁 Files Included
-- `run_model.py` - The main Python file to run the model.
 - `requirements.txt` - List of all required packages.
-- `trained_model.h5` - The trained model file.
+- `trained_model.h5` / `trained_model.keras` - The trained model files.
 
 ---
 
+### 1. Upload Files to Google Colab
+- Open [Google Colab](https://colab.research.google.com/)
+- Upload the following files to the Colab session:
+  - `model_training.ipynb`
+  - `trained_model.h5` & `trained_model.keras`)
 
-### 1. Clone the Repository
+### 2. Open `model_training.ipynb`
+- Make sure it appears under your Colab Files.
+
+### 3. Install Dependencies (If Needed)
+Run the following commands in a new code cell:
 ```bash
- git clone https://github.com/YourUsername/YourRepo.git
+!pip install -r requirements.txt
+!pip install tensorflow
 ```
 
-### 2. Navigate to the Project Directory
-```bash
-cd YourRepo
-```
-
-### 3. Create and Activate Virtual Environment (Recommended)
-```bash
-python -m venv env
-```
-- **Windows:**
-  ```bash
-  .\env\Scripts\activate
-  ```
-- **Linux / MacOS:**
-  ```bash
-  source env/bin/activate
-  ```
-
-### 4. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 5. Upgrade Pip (To avoid compatibility issues)
-```bash
-python -m pip install --upgrade pip
-```
-
-### 6. Install TensorFlow (If Not Installed Automatically)
-```bash
-pip install tensorflow
-```
-- For GPU support (if desired):
-  ```bash
-  pip install tensorflow-gpu
-  ```
-
----
-
-## 🚀 Running the Model
-To run the model, use the following command:
-```bash
-python run_model.py
-```
-
-Upload an image when prompted and the model will display the prediction result along with the image.
+### 4. Run the Last Cell Only
+- In the `model_training.ipynb` file, **scroll down and run the last cell** only. 
+- This will load the trained model and allow you to make predictions.
 
 ---
 
 ## 📌 Important Note
-Ensure your `dr_model.h5` file is placed in the **same directory** as `run_model.py`.
-
-
-
+Ensure your `trained_model.h5` or `trained_model.keras` file is uploaded to the Colab session before running the last cell.
