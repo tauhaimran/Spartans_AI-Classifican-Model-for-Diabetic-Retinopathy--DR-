@@ -11,7 +11,10 @@ This project aims to build a **Diabetic Retinopathy (DR) Classification Model** 
 The model is trained using a deep learning approach, leveraging popular frameworks like **TensorFlow, PyTorch, OpenCV, and FastAI**.
 
 ---
-## File Structure
+# 📁 Project File Structure - Spartans AI
+
+This is the organized file structure of the **Spartans AI Model for Diabetic Retinopathy Classification**.  
+```
 ├── Spartans/
     ├── model/
     │   ├── trained_model.h5 or .pt
@@ -22,6 +25,8 @@ The model is trained using a deep learning approach, leveraging popular framewor
     ├── requirements.txt (dependencies)
     ├── watchme.mkv (demo video)
     ├── Spartans.txt (.zip file of whole project)
+```
+
 ---
 
 ## 🔍 Approach
